@@ -1,0 +1,9 @@
+def findMaxAverage(self, nums: List[int], k: int) -> float:
+        res = float('-inf')
+
+        for left_cnt in range(len(nums)-k+1):
+            k_arrs = nums[left_cnt:left_cnt+k]
+            avg = sum(k_arrs)/k
+            res = max(res, avg)
+        
+        return res
