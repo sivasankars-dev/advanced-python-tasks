@@ -15,4 +15,4 @@ for val in inp:
 
 print("even", even)
 print("odd", odd)
-print('hello siva')
+print('hello sankar')
