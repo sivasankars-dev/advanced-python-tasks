@@ -7,4 +7,4 @@ arr = [5,10,15,20]
 find = 15
 for i, val in enumerate(arr):
     if find == val:
-        print(f"Expected index of {val} is {i}")
+        print(f"Expected index of {val} is {i}") 
